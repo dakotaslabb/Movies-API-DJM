@@ -12081,24 +12081,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dakot\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ingab\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dakot\\OneDrive\\Documents\\Grand Circus\\Group Projects\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
+      "projectUniqueName": "D:\\Class Project\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
       "projectName": "Movies-API-DJM",
-      "projectPath": "C:\\Users\\dakot\\OneDrive\\Documents\\Grand Circus\\Group Projects\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
-      "packagesPath": "C:\\Users\\dakot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dakot\\OneDrive\\Documents\\Grand Circus\\Group Projects\\Movies-API-DJM\\Movies-API-DJM\\obj\\",
+      "projectPath": "D:\\Class Project\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
+      "packagesPath": "C:\\Users\\ingab\\.nuget\\packages\\",
+      "outputPath": "D:\\Class Project\\Movies-API-DJM\\Movies-API-DJM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\dakot\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ingab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"

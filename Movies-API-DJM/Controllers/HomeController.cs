@@ -14,7 +14,12 @@ namespace Movies_API_DJM.Controllers
         {
             return View();
         }
+        public IActionResult Result(string title)
+        {
 
+            // Movies MyMovie = MovieDAL.GetMovie(title);
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
