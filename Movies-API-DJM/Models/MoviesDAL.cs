@@ -6,11 +6,12 @@ namespace Movies_API_DJM.Models
 {
     public class MoviesDAL
     {
-        public string BaseURL = "http://www.omdbapi.com/";
-        public string TitleSearch = "?s=";
-        public string key = "&apikey=7f72b12d";
+        public static string BaseURL = "http://www.omdbapi.com/";
+        public static string TitleSearch = "?t=";
+        public static string Search = "?s=";
+        public static string key = "&apikey=7f72b12d";
 
-        public string CallMoviesAPI(string searchText)
+        public static Movies FindTitleAPI(string searchText)
         {
             HttpWebRequest request = WebRequest.CreateHttp($"{BaseURL}{TitleSearch}{searchText}{key}");
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
@@ -19,10 +20,29 @@ namespace Movies_API_DJM.Models
 
             string APIText = rd.ReadToEnd();
 
-            return APIText;
+            JToken token = JToken.Parse(APIText);
+
+            Movies MyMovie = new Movies(token);
+
+            return MyMovie;
         }
 
-        public JToken ParseJsonString(string text)
+        public static MovieSearch SearchMoviesAPI(string searchText)
+        {
+            HttpWebRequest request = WebRequest.CreateHttp($"{BaseURL}{Search}{searchText}{key}");
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+            StreamReader rd = new StreamReader(response.GetResponseStream());
+
+            string APIText = rd.ReadToEnd();
+
+            JToken token = JToken.Parse(APIText);
+
+            MovieSearch MyMovie = new MovieSearch(token);
+
+            return MyMovie;
+        }
+        public static JToken ParseJsonString(string text)
         {
             JToken output = JToken.Parse(text);
             return output;

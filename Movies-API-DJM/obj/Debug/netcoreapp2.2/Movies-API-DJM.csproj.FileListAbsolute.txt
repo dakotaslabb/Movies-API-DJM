@@ -23,3 +23,10 @@ C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Mov
 C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.RazorTargetAssemblyInfo.cache
 C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.RazorTargetAssemblyInfo.cs
+C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Movies-API-DJM.pdb
+C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Movies-API-DJM.Views.dll
+C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Movies-API-DJM.Views.pdb
+C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.Views.pdb
+C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.dll
+C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.pdb
+C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.csproj.CopyComplete
