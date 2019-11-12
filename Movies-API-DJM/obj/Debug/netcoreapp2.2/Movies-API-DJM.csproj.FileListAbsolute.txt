@@ -30,3 +30,36 @@ C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Mov
 C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.dll
 C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.pdb
 C:\Users\dakot\OneDrive\Documents\Grand Circus\Group Projects\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.csproj.CopyComplete
+D:\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Movies-API-DJM.deps.json
+D:\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Movies-API-DJM.runtimeconfig.json
+D:\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Movies-API-DJM.runtimeconfig.dev.json
+D:\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Movies-API-DJM.dll
+D:\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Movies-API-DJM.pdb
+D:\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Movies-API-DJM.Views.dll
+D:\Movies-API-DJM\Movies-API-DJM\bin\Debug\netcoreapp2.2\Movies-API-DJM.Views.pdb
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.csprojAssemblyReference.cache
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.RazorAssemblyInfo.cache
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.RazorAssemblyInfo.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.AssemblyInfoInputs.cache
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.AssemblyInfo.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.TagHelpers.input.cache
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.TagHelpers.output.cache
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.RazorCoreGenerate.cache
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.RazorTargetAssemblyInfo.cache
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.RazorTargetAssemblyInfo.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.Views.pdb
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.dll
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.pdb
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.csproj.CopyComplete
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Home\Result.cshtml.g.cs

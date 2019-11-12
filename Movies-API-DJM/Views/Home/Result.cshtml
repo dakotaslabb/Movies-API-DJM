@@ -1,0 +1,24 @@
+﻿@model IEnumerable<string>
+@{
+    ViewData["Title"] = "Result";
+}
+<h1>Result</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <span> @item </span>
+                    @Html.ActionLink("Details", "MovieDetails", new { Title = item })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
