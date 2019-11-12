@@ -14,11 +14,22 @@ namespace Movies_API_DJM.Controllers
         {
             return View();
         }
-         public IActionResult Result(string title)
+        // public IActionResult Result(string title)
+        //{
+        //   // //title = "batman";
+        //    Movies MyMovie = MoviesDAL.FindTitleAPI(title);
+        //    return View(MyMovie);
+        //}
+        public IActionResult Result(string Title)
         {
-           // //title = "batman";
-            Movies MyMovie = MoviesDAL.FindTitleAPI(title);
-            return View(MyMovie);
+            TempData["Title"] = Title;
+            MovieSearch MyMovies = MoviesDAL.SearchMoviesAPI(Title);
+            return View(MyMovies.Title);
+        }
+        public IActionResult MovieDetails(string Title)
+        {
+            Movies MyMovies = MoviesDAL.FindTitleAPI(Title);
+            return View(MyMovies);
         }
         public IActionResult Privacy()
         {
