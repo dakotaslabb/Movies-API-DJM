@@ -24,6 +24,13 @@ namespace Movies_API_DJM.Controllers
         {
             return View();
         }
+        public IActionResult AddToFavorites(string Title)
+        {
+            Movies MyMovie = MoviesDAL.FindTitleAPI(Title);
+            db.Add(MyMovie);
+            db.SaveChanges();
+            return RedirectToAction("Search");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
