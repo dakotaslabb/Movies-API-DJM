@@ -37,8 +37,8 @@ namespace Movies_API_DJM.Controllers
         public IActionResult AddToFavorites(string Title)
         {
             Movies MyMovie = MoviesDAL.FindTitleAPI(Title);
-            db.Add(MyMovie);
-            db.SaveChanges();
+            //db.Add(MyMovie);
+            //db.SaveChanges();
             return RedirectToAction("Search");
         }
 
