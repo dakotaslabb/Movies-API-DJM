@@ -1737,18 +1737,8 @@
       "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
         "type": "package"
       },
-      "Microsoft.EntityFrameworkCore.Design/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Design/3.0.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Microsoft.EntityFrameworkCore.Relational": "2.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
-        },
         "build": {
           "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
@@ -6238,20 +6228,18 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/2.2.0": {
-      "sha512": "mcsUEzg1bWvPgj/isz7aabDy41x+x8WBTmSF+JFsDGe3K5ZElWT2FSr3LLmkXk/5BLWJ3f9SDe0YR55u3ZgHrw==",
+    "Microsoft.EntityFrameworkCore.Design/3.0.0": {
+      "sha512": "rOV5eClv+dq09htWNHv56y7TYZVAbLc6O+09ljg2FfSUsvlOJDsWHBLqAUofevZ2QxHTTZlAJLZkZGEBC6gUww==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/2.2.0",
+      "path": "microsoft.entityframeworkcore.design/3.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/net461/Microsoft.EntityFrameworkCore.Design.props",
         "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
-        "lib/net461/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/net461/Microsoft.EntityFrameworkCore.Design.xml",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.2.2.0.nupkg.sha512",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.3.0.0.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -12939,7 +12927,7 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 2.2.0",
-      "Microsoft.EntityFrameworkCore.Design >= 2.2.0",
+      "Microsoft.EntityFrameworkCore.Design >= 3.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Tools >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -12947,25 +12935,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ingab\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\james\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
+      "projectUniqueName": "C:\\Users\\james\\source\\repos\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
       "projectName": "Movies-API-DJM",
-      "projectPath": "D:\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
-      "packagesPath": "C:\\Users\\ingab\\.nuget\\packages\\",
-      "outputPath": "D:\\Movies-API-DJM\\Movies-API-DJM\\obj\\",
+      "projectPath": "C:\\Users\\james\\source\\repos\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
+      "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\james\\source\\repos\\Movies-API-DJM\\Movies-API-DJM\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ingab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -13004,8 +12987,10 @@
             "version": "[2.2.0, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.2.0, )"
+            "version": "[3.0.0, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -13041,5 +13026,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.2.0 requires Microsoft.EntityFrameworkCore.Design (>= 2.2.0 && < 2.3.0) but version Microsoft.EntityFrameworkCore.Design 3.0.0 was resolved.",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }

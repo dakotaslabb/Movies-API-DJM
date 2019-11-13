@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj": {}
+    "C:\\Users\\james\\source\\repos\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj": {}
   },
   "projects": {
-    "D:\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj": {
+    "C:\\Users\\james\\source\\repos\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
+        "projectUniqueName": "C:\\Users\\james\\source\\repos\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
         "projectName": "Movies-API-DJM",
-        "projectPath": "D:\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
-        "packagesPath": "C:\\Users\\ingab\\.nuget\\packages\\",
-        "outputPath": "D:\\Movies-API-DJM\\Movies-API-DJM\\obj\\",
+        "projectPath": "C:\\Users\\james\\source\\repos\\Movies-API-DJM\\Movies-API-DJM\\Movies-API-DJM.csproj",
+        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\james\\source\\repos\\Movies-API-DJM\\Movies-API-DJM\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ingab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -55,11 +51,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

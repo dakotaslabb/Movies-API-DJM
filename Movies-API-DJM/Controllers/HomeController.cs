@@ -10,9 +10,26 @@ namespace Movies_API_DJM.Controllers
 {
     public class HomeController : Controller
     {
+         MovieContext db = new MovieContext();
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult Details(string id)
+        {
+
+            Movies m = db.Movies.Find(id);
+
+            return View(m);
+        }
+
+        public IActionResult Delete(string id)
+        {
+           Movies m =  db.Movies.Find(id);
+            db.Remove(m);
+            db.SaveChanges();
+            return RedirectToAction("Favorites");
         }
         public IActionResult Search()
         {
@@ -36,12 +53,18 @@ namespace Movies_API_DJM.Controllers
         }
         public IActionResult AddToFavorites(string Title)
         {
+            TempData["Title"] = Title;
             Movies MyMovie = MoviesDAL.FindTitleAPI(Title);
-            //db.Add(MyMovie);
-            //db.SaveChanges();
-            return RedirectToAction("Search");
+            db.Add(MyMovie);
+            db.SaveChanges();
+            return RedirectToAction("Favorites");
         }
 
+        public IActionResult Favorites()
+        {
+            List<Movies> allMovies = db.Movies.ToList();
+            return View(allMovies);
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

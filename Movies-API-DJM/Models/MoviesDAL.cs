@@ -11,7 +11,9 @@ namespace Movies_API_DJM.Models
         public static string Search = "?s=";
         public static string key = "&apikey=7f72b12d";
 
-        public static Movies FindTitleAPI(string searchText)
+
+
+        public static  Movies FindTitleAPI(string searchText)
         {
             HttpWebRequest request = WebRequest.CreateHttp($"{BaseURL}{TitleSearch}{searchText}{key}");
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
