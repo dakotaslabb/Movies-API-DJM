@@ -34,6 +34,24 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        @if (@Context.Request.Cookies["userNameCookie"] == null)
+                        {
+                            <li class="nav-link text-dark">
+                                @Html.ActionLink("Register", "Register", "Login")
+
+                            </li>
+                            <li class="nav-link text-dark">
+                                @Html.ActionLink("Login", "Login", "Login")
+
+                            </li>
+
+                        }
+                        else
+                        {
+                            <li class="nav navbar-nav navbar-right">
+                                <a class="nav-link text-dark" asp-action="ClearCookie" asp-controller="Login">Logout</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
@@ -42,6 +60,16 @@
     <div class="container">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
+            <div class="text-center">
+                @if (@Context.Request.Cookies["userNameCookie"] != null)
+                {
+                    <h6 class="display-8">Welcome @Context.Request.Cookies["userNameCookie"]</h6>
+
+
+                }
+              
+
+            </div>
             @RenderBody()
         </main>
     </div>

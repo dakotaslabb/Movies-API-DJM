@@ -64,3 +64,6 @@ D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.pdb
 D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Movies-API-DJM.csproj.CopyComplete
 D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Home\Result.cshtml.g.cs
 D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Home\MovieDetails.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Home\Search.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Login\Login.cshtml.g.cs
+D:\Movies-API-DJM\Movies-API-DJM\obj\Debug\netcoreapp2.2\Razor\Views\Login\Register.cshtml.g.cs
