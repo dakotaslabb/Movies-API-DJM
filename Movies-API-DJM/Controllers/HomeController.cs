@@ -15,6 +15,18 @@ namespace Movies_API_DJM.Controllers
         {
             return View();
         }
+        public IActionResult Favorites()
+        {
+            List<Movies> allMovies = db.Movies.ToList();
+            return View(allMovies);
+        }
+        public IActionResult Delete(string id)
+        {
+            Movies m = db.Movies.Find(id);
+            db.Remove(m);
+            db.SaveChanges();
+            return RedirectToAction("Favorites");
+        }
         public IActionResult Search()
         {
             return View();
